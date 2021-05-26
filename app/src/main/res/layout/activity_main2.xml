@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#C2C0BA"
+        android:text="Tic Tac Toe"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
+    <TextView
+        android:id="@+id/winner"
+        android:text="Lets see who wins"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/Reset"
+        android:layout_gravity="center"
+        android:text="Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <GridLayout
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/B1"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="3dp"
+            android:onClick="buClick"
+            app:backgroundTint="#BBB0B0"
+            app:iconTint="@color/black"
+            app:rippleColor="@color/white" />
+
+        <Button
+            android:id="@+id/B2"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="3dp"
+            android:onClick="buClick"
+            app:backgroundTint="#BBB0B0"
+            app:iconTint="@color/black"
+            app:rippleColor="@color/white" />
+
+        <Button
+            android:id="@+id/B3"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_margin="3dp"
+            android:onClick="buClick"
+            app:backgroundTint="#BBB0B0"
+            app:iconTint="@color/black"
+            app:rippleColor="@color/white" />
+
+        <Button
+            android:id="@+id/B4"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="3dp"
+            android:onClick="buClick"
+            app:backgroundTint="#BBB0B0"
+            app:iconTint="@color/black"
+            app:rippleColor="@color/white" />
+
+        <Button
+            android:id="@+id/B5"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="3dp"
+            android:onClick="buClick"
+            app:backgroundTint="#BBB0B0"
+            app:iconTint="@color/black"
+            app:rippleColor="@color/white" />
+
+        <Button
+            android:id="@+id/B6"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_margin="3dp"
+            android:onClick="buClick"
+            app:backgroundTint="#BBB0B0"
+            app:iconTint="@color/black"
+            app:rippleColor="@color/white" />
+
+        <Button
+            android:id="@+id/B7"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="3dp"
+            android:onClick="buClick"
+            app:backgroundTint="#BBB0B0"
+            app:iconTint="@color/black"
+            app:rippleColor="@color/white" />
+
+        <Button
+            android:id="@+id/B8"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="3dp"
+            android:onClick="buClick"
+            app:backgroundTint="#BBB0B0"
+            app:iconTint="@color/black"
+            app:rippleColor="@color/white" />
+
+        <Button
+            android:id="@+id/B9"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_margin="3dp"
+            android:onClick="buClick"
+            app:backgroundTint="#BBB0B0"
+            app:iconTint="@color/black"
+            app:rippleColor="@color/white" />
+
+
+    </GridLayout>
+</LinearLayout>
